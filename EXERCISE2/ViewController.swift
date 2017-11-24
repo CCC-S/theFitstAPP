@@ -68,7 +68,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
     
     let sexTextField = UITextField(frame: CGRect(x:220, y: 160, width: 80, height: 30))
     let sexPickerView = UIPickerView()
-    let sexValue = ["MALE", "FEMALE"]
+    let sexValue = ["MALE", "FEMALE", "UNKNOWN"]
     
     let schoolTextField = UITextField(frame: CGRect(x:100, y: 240, width: 200, height: 30))
     let schoolPickerView = UIPickerView()
@@ -227,7 +227,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
     
     @objc
     func jumpToNewViewController(){
-        if phoneNumTextField.text! =~ "^1[0-9]{10}$" {
+        if phoneNumTextField.text! =~ "^[0-9]{11}$" {
             if nameTextField.text! =~ "[\u{4e00}-\u{9fa5}]{2,4}" {
                 if self.IDTextField.text! =~ "^[0-9]{13}" {
                     if self.verificationCodeTextField.text! == String(verificationCode) {
