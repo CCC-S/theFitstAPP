@@ -12,7 +12,9 @@
 
 # Tips
 
-Once the _Get VC_ button is clicked, the console would print a random verification code; only when the value in _VC_ text field would the regiser process continue.
+- Once the _Get VC_ button is clicked, the _console_ would print a random verification code; only when the value in _VC_ text field would the regiser process continue.
+- If the _console_ not shows, select **View >> Debug Area >> Activate Console** in Xcode.
+- If the keyboard not shows, select **Hardware >> Keyboard >> Toggle Software Keyboard** in Simulator.
 
 # Other
 
