@@ -19,3 +19,7 @@
 # Other
 
 This project is far from a genuine App; nevertheless, it will be upgraded with the course moving forward.
+
+# References
+- www.hangge.com
+- Other blogs like csdn.net and question and answer sites like stackoverflow.com.
